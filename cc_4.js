@@ -18,9 +18,17 @@ totalSales += sales[i];// Add each sale
 console.log(`Total Sales: $${totalSales}`); //Log
 
 //Task 3 - Inventory Depletion
-let stock = 5; //Declare stock variable
+let stock = 10; //Declare stock variable
 while (stock > 0) { //Use a while loop to decrease stocj until reaches 0
     console.log(`Available Stock: ${stock}`);
     stock--; //Subtracts stock by 1
 }
 console.log("Stock is empty") //Log
+
+//Task 4 - Customer Survey
+let responses = 0; //Declare a variable responses
+do {
+    console.log(`Responses: ${responses}`);
+    responses++; 
+} while (responses < 3);
+console.log("Survey complete");
