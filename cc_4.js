@@ -9,42 +9,4 @@ if (purchaseAmount > 100) {
 let finalAmount = purchaseAmount - discount;
 console.log(`Final amount after discount: $${finalAmount}`);
 
-//Task 2 - Sales Report
-let sales = [500, 600, 700, 800, 900]; //Declare an array
-let totalSales = 0; //Initialize count variable
-for (let i=0; i< sales.length; i++) { //Use a  for loop to calculate total sales
-totalSales += sales[i];// Add each sale
-}
-console.log(`Total Sales: $${totalSales}`); //Log
-
-//Task 3 - Inventory Depletion
-let stock = 10; //Declare stock variable
-while (stock > 0) { //Use a while loop to decrease stocj until reaches 0
-    console.log(`Available Stock: ${stock}`);
-    stock--; //Subtracts stock by 1
-}
-console.log("Stock is empty") //Log
-
-//Task 4 - Customer Survey
-let responses = 0; //Declare a variable responses
-do {               //Use a do while loop to collec responses
-    console.log(`Responses: ${responses}`);
-    responses++; 
-} while (responses < 3);
-console.log("Survey complete"); //Log
-
-//Task 5 - Employee Information
-let employee = { // Declare an employee object with properties
-    name: "Alice",
-    position: "Manager",
-    salary: 75000
-};
-for (let key in employee) {     //Use for in loop to iterate thru object properties
-    console.log(`${key}: ${employee[key]}`); //Log
-}
-
-//Task 5 - Product Listings
-let products = ["Laptop", "Mouse", "Keyboard"]; //Declare an array
-for (let product of products) {                 //Use for of loop to display each product
-    console.log(`Product: ${product}`);         //Log
-}
+/
